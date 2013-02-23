@@ -1,5 +1,5 @@
 {
-	"name":"contao-community-alliance/contao-composer-demo",
+	"name":"contao-community-alliance/composer-demo",
 	"description":"Composer demo extension for the Contao Open Source CMS",
 	"keywords":["contao", "composer"],
 	"type":"contao-module",
