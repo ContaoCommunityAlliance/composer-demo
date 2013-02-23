@@ -1,0 +1,35 @@
+{
+	"name":"contao-community-alliance/contao-composer-demo",
+	"description":"Composer demo extension for the Contao Open Source CMS",
+	"keywords":["contao", "composer"],
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Tristan Lins",
+			"email":"tristan.lins@bit3.de",
+			"homepage":"http://bit3.de",
+			"role":"Developer"
+		}
+	],
+	"require":{
+		"php":">=5.3",
+		"contao":">=2.11"
+	},
+	"autoload":{
+		"classmap":["src/"]
+	},
+	"extra":{
+		"contao": {
+			"symlinks":{
+				"src/system/modules/composer-demo":"system/modules/composer-demo"
+			},
+			"userfiles": {
+				"userfiles": "composer-demo"
+			},
+			"runonce":[
+				"runonce/demo-logger.php"
+			]
+		}
+	}
+}
