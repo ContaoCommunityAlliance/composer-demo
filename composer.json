@@ -22,7 +22,7 @@
 	},
 	"extra":{
 		"contao": {
-			"symlinks":{
+			"sources":{
 				"src/system/modules/composer-demo":"system/modules/composer-demo"
 			},
 			"userfiles": {
@@ -31,6 +31,9 @@
 			"runonce":[
 				"runonce/demo-logger.php"
 			]
+		},
+		"branch-alias": {
+			"dev-master": "2.x-dev"
 		}
 	}
 }
