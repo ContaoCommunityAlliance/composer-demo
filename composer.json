@@ -21,7 +21,7 @@
 		"contao-legacy/composer_demo": "self.version"
 	},
     "conflict": {
-		"contao/core": "3.0.*",
+		"contao/core": "3.0.*"
 	},
 	"autoload":{
 		"classmap":["src/"],
