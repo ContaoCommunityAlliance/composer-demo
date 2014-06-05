@@ -15,7 +15,7 @@
 	"require":{
 		"php":">=5.3",
 		"contao/core":">=2.11,<3.2",
-		"contao-community-alliance/composer-installer": "*"
+		"contao-community-alliance/composer-plugin": "~2.0"
 	},
 	"replace": {
 		"contao-legacy/composer_demo": "self.version"
